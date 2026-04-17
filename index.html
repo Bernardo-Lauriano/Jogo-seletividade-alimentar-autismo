@@ -11,6 +11,16 @@
   <div class="header-bg">
     <div class="title-banner"> O que eu quero comer? </div>
     <div class="alimentos-label">Toque no alimento para colocar no prato!</div>
+    
+    <!-- Botões de Categorias -->
+    <div class="categorias-container">
+      <button class="categoria-btn ativo" onclick="filtrarCategoria(this, 'proteinas')">🥚 Proteínas</button>
+      <button class="categoria-btn" onclick="filtrarCategoria(this, 'carboidratos')">🍚 Carboidratos</button>
+      <button class="categoria-btn" onclick="filtrarCategoria(this, 'verduras')">🥬 Verduras</button>
+      <button class="categoria-btn" onclick="filtrarCategoria(this, 'legumes')">🥕 Legumes</button>
+      <button class="categoria-btn" onclick="filtrarCategoria(this, 'frutas')">🍎 Frutas</button>
+    </div>
+    
     <div class="food-grid" id="foodGrid"></div>
   </div>
 

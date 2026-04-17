@@ -29,6 +29,8 @@ body {
   padding: 20px 20px 18px;
   border-bottom: 4px dashed #7ec8e3;
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 .title-banner {
   background: linear-gradient(90deg, #ff6b9d, #ffa94d, #ffd43b);
@@ -45,6 +47,43 @@ body {
   font-size: 16px;
   color: #888;
   margin-bottom: 10px;
+}
+
+/* BOTÕES DE CATEGORIAS */
+.categorias-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0 20px 0;
+  flex-wrap: wrap;
+  padding: 12px 10px;
+  box-sizing: border-box;
+}
+
+.categoria-btn {
+  background: white;
+  border: 2px solid #b3e0f7;
+  border-radius: 20px;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+  user-select: none;
+  white-space: nowrap;
+}\n\n.categoria-btn:hover {
+  border-color: #ffa94d;
+  transform: scale(1.05);
+}
+
+.categoria-btn.ativo {
+  background: linear-gradient(90deg, #ff6b9d, #ffa94d, #ffd43b);
+  border-color: #ff6b9d;
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 107, 157, 0.3);
 }
 
 /* GRID DE ALIMENTOS */
@@ -99,6 +138,15 @@ body {
   }
   .alimentos-label {
     font-size: 12px;
+  }
+  .categorias-container {
+    gap: 6px;
+    margin: 10px 0 12px;
+    padding: 0 8px;
+  }
+  .categoria-btn {
+    padding: 6px 12px;
+    font-size: 10px;
   }
   .food-grid {
     gap: 5px;
