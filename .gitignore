@@ -1,0 +1,22 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Dependencies (if ever added)
+node_modules/
+
+# Build outputs
+dist/
+build/
