@@ -173,6 +173,10 @@ function limparPrato() {
   renderPrato();
 }
 
+function voltarHome() {
+  window.location.href = 'index.html';
+}
+
 renderGrid();
 console.log('Script carregado! Categorias:', Object.keys(alimentosPorCategoria));
 console.log('Total alimentos:', alimentos.length);
