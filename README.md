@@ -48,4 +48,4 @@ Livre para usar, modificar e compartilhar!
 
 ---
 
-**Criado com ❤️ para tornar a escolha de comida divertida!**
+**Criado com o uso da IA para fins de estudo e com muito ❤️ para tornar a escolha de comida divertida!**
